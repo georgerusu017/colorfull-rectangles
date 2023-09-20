@@ -1,0 +1,55 @@
+.editorTab {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.boxes {
+  width: 720px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(201, 218, 248);
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input[type='number'] {
+  width: 30px;
+  padding: 2px 2px;
+  margin: 5px 5px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: rgb(207, 226, 243);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: start;
+  align-items: center;
+  justify-items: start;
+}
+
+.rgb {
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+}
